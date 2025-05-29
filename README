@@ -1,0 +1,9 @@
+This workflow is designed to set up a geometrically realistic 3D subduction zone geometry.
+
+The general steps are to run the following scripts:
+
+    1. generate_points.sh: define node coordinates and labels
+    2. generate_lines.sh: connect nodes with lines
+    3. generate_surfaces: connect lines into surfaces
+    4. setup_gmsh.sh: convert the geometry into a form readable by Gmsh
+
